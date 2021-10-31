@@ -18,12 +18,10 @@ In order to create these variables you need to create free developer account fro
 In your newly created application:
 
 You can get **Access Key** and **Secret Key** from Keys Section.
-![Screen Shot 2021-10-31 at 6 32 01 PM](https://user-images.githubusercontent.com/34595361/139595168-20f3214b-2785-404a-9429-435c68aa09a6.png)
-
+![Screen Shot 2021-10-31 at 8 45 24 PM](https://user-images.githubusercontent.com/34595361/139595601-69aeaf6d-485c-4db7-a2d6-cebee6720444.png)
 
 You need to change your **Redirect URI** to complete authentication and check the **Write likes access** checkbox to use like/unlike photo feature of app. (The **Public access** checkbox is checked by default).
-![Screen Shot 2021-10-31 at 6 32 15 PM](https://user-images.githubusercontent.com/34595361/139595173-98909133-16ae-4fdc-bae7-06b6a2725128.png)
-
+![Screen Shot 2021-10-31 at 8 45 06 PM](https://user-images.githubusercontent.com/34595361/139595611-5c966c6d-a501-45a4-8042-6442e0ab269b.png)
 
 After operations above your **.env** file should look like below:
 ```
