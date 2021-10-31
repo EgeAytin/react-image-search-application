@@ -100,7 +100,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Additional Notes
 
 ### Design
-I took care to keep the design of the application very simple and understandable. This is a test application, so I would like to point out that it does not have any production level design quality.
+I took care to keep the design of the application very simple and understandable. This is a testing application that focuses more on functionality, so I would like to point out that it does not have production level design quality.
 
 ### 3rd Party Libraries
 - I used [bootsrap](https://getbootstrap.com/) for the design layout and most of the components.
