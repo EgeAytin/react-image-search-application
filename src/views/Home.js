@@ -20,7 +20,7 @@ function Home(props) {
     const [page, setPage] = useState(1);
     const [query, setQuery] = useState("");
 
-    const [perPage, setPerPage] = useState(18);
+    const [perPage, setPerPage] = useState(15);
     const [orderBy, setOrderBy] = useState("relevant");
 
     //Search response
@@ -69,8 +69,6 @@ function Home(props) {
     function getSearchResults(){
         apiService.getSearchResults(1, perPage, orderBy, query)
             .then(response => {
-                console.log('response_results', response);
-
                 const searchRes = response.data;
                 setPhotos(searchRes);
             }).catch(error => {

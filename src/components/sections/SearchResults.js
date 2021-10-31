@@ -11,6 +11,7 @@ function SearchResults(props) {
 
     const { photos, query} = props;
 
+    console.log('photos', photos);
     return (
         <>
             {(photos.total !== 0) && (
@@ -18,6 +19,7 @@ function SearchResults(props) {
                     dataLength={photos.results.length}
                     next={props.scrollHandler}
                     hasMore={photos.total !== photos.results.length}
+                    scrollThreshold={0.5}
                     endMessage={
                         <>
                             {photos.results.length > 0 && (
@@ -37,7 +39,7 @@ function SearchResults(props) {
                         </>
                     }
                 >
-                    <div className="album py-5 bg-light">
+                    <div className="album py-lg-5">
                         <div className="container">
                             <Masonry
                                 className="grid"
