@@ -13,14 +13,16 @@ You need to create **.env** file in the project directory and add 3 variables:
  - Unsplash demo app API Secret Key as REACT_APP_API_SECRET_KEY
  - Unsplash demo app Redirect Uri as REACT_APP_AUTH_REDIRECT_URL
  
-In order to get these variables you need to create free developer account from [unsplash.com/developers](https://unsplash.com/developers) and then add new application from **your apps** tab.
+In order to create these variables you need to create free developer account from [unsplash.com/developers](https://unsplash.com/developers) and then add new application from **your apps** tab.
 
 In your newly created application:
 
 You can get **Access Key** and **Secret Key** from Keys Section.
+![Screen Shot 2021-10-31 at 6 32 01 PM](https://user-images.githubusercontent.com/34595361/139595168-20f3214b-2785-404a-9429-435c68aa09a6.png)
 
 
 You need to change your **Redirect URI** to complete authentication and check the **Write likes access** checkbox to use like/unlike photo feature of app. (The **Public access** checkbox is checked by default).
+![Screen Shot 2021-10-31 at 6 32 15 PM](https://user-images.githubusercontent.com/34595361/139595173-98909133-16ae-4fdc-bae7-06b6a2725128.png)
 
 
 After operations above your **.env** file should look like below:
