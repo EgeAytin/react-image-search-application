@@ -1,0 +1,30 @@
+/*Common input style*/
+input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    opacity: 0;
+}
+
+/*Photo item styles*/
+.photo-item{
+    position: relative;
+}
+
+.photo-item .icon-button{
+    visibility: hidden;
+
+    position: absolute;
+    padding: 8px 12px;
+    border-radius: 6px;
+    top: 12px;
+    right:12px;
+
+    display: flex;
+    align-items: center;
+
+    background: #FFFFFF;
+    cursor:pointer;
+}
+
+.photo-item:hover .icon-button{
+    visibility: visible;
+}
