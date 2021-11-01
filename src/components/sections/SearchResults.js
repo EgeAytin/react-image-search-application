@@ -11,7 +11,6 @@ function SearchResults(props) {
 
     const { photos, query} = props;
 
-    console.log('photos', photos);
     return (
         <>
             {(photos.total !== 0) && (

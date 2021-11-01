@@ -71,8 +71,10 @@ function App() {
   function authorizeUser(code){
     apiService.authorizeUser(code)
         .then(response => {
-          console.log('response', response);
           const res = response.data;
+
+          alert('User successfully logged in');
+
           localStorage.setItem('access_token',res.access_token);
           dispatch({type: 'RESTORE_AUTH_STATUS', isAuthorized: true});
         }).catch(error => {
